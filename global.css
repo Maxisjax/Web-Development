@@ -1,0 +1,121 @@
+@charset "utf-8";
+    
+/* The main body will have a black background with white characters */    
+    
+body {
+            
+    background-color: black;
+    color: white;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    padding: 10px;
+    margin: 0;
+}
+
+
+#edges {
+    
+ background-color:#FFFFFF;
+ color:black;
+ margin:25px;
+ background-image:url(background.jpg);
+ background-repeat:repeat-y;
+
+
+
+}  
+        
+
+    
+  h1, h2, h3 {
+   font-family: "Times New Roman";
+   font-weight: bold;
+}
+
+h1 {
+        color: #43743D;
+        font-size: 1.7em;
+        
+}
+        
+h2 {
+        color: #000000;
+        font-size: 1.2em;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #889A9C;
+}    
+    
+    
+h3 {
+        color: #889A9C;
+        font-size: 1em;
+}    
+    
+       
+    
+    
+}
+      
+a {
+    color:#000000;
+}
+
+a:link {
+    color:#000000;    
+        
+} 
+
+a:visited {
+    color:#43743D;    
+        
+} 
+
+a:hover {
+    color:#80B939;    
+        
+} 
+
+a:active {
+    color:80B939;    
+        
+} 
+    /*containers*/
+
+#main_content { 
+    
+    float: right;
+    width: 65%;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+
+
+#sidebar {
+    
+    color: #889A9C;
+    font-size: small;
+    font-varient: small-caps;
+    line-height: 1.2;
+    padding-right: 10;
+    width:200px;
+    border-right-width:1px;
+    border-right-color:#889A9C;
+    border-right-style:solid;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+#footer {
+    
+    clear: both;
+    margin: 0px;
+}
+
+
+
+
+</style>  
